@@ -24,5 +24,18 @@ namespace NetworkUtility.Tests.PingTests
             result.Should().Contain("Ping", Exactly.Once());
             result.Should().Contain("Sent", Exactly.Once());
         }
+
+        [Theory]
+        [InlineData(3, 9)]
+        public void NetworkServicePingTimeOutReturnInt(int a, int b)
+        {
+            //Arrange
+            var pingService = new NetworkService();
+            //Act
+            var pingResult = pingService.PingTimeout(a, b);
+            //Assert
+            pingResult.Should().BeGreaterThanOrEqualTo(12);
+            pingResult.Should().NotBeInRange(-1000000, 0);
+        }
     }
 }

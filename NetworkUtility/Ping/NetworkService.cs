@@ -12,9 +12,9 @@ namespace NetworkUtility.Ping
         {
             return "Ping Sent:";
         }
-        public string PingTimeout() 
+        public int PingTimeout(int a, int b)
         {
-
+            return a + b;
         }
     }
 }
