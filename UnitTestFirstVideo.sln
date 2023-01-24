@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFirstVideo", "UnitTestFirstVideo\UnitTestFirstVideo.csproj", "{90133A1A-6D9A-4368-AF41-22E7F733EB6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility\NetworkUtility.csproj", "{95510DB8-0B9B-4AEF-97D8-CF6003BF94CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{53419D31-FF72-4498-83ED-9C8A683A491C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90133A1A-6D9A-4368-AF41-22E7F733EB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90133A1A-6D9A-4368-AF41-22E7F733EB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90133A1A-6D9A-4368-AF41-22E7F733EB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90133A1A-6D9A-4368-AF41-22E7F733EB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95510DB8-0B9B-4AEF-97D8-CF6003BF94CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95510DB8-0B9B-4AEF-97D8-CF6003BF94CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95510DB8-0B9B-4AEF-97D8-CF6003BF94CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95510DB8-0B9B-4AEF-97D8-CF6003BF94CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53419D31-FF72-4498-83ED-9C8A683A491C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53419D31-FF72-4498-83ED-9C8A683A491C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53419D31-FF72-4498-83ED-9C8A683A491C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53419D31-FF72-4498-83ED-9C8A683A491C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
